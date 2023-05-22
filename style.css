@@ -1,80 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #ED82EE;
-    /* background-image: linear-gradient(315deg, #ED82EE 0%, #f5b7f6 100%); */
-    font-family: 'Jost', sans-serif;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+  background-color: #9c7bff;
+  /* background-image: linear-gradient(315deg, #ED82EE 0%, #f5b7f6 100%); */
+  font-family: "Jost", sans-serif;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .quiz-container {
-    background-color: #FF7F50;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-    width: 37.5rem;
-    overflow: hidden;
+  position: relative;
+  background-color: #50ffaf;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 37.5rem;
+  overflow: hidden;
 }
 
 .quiz-header {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 h2 {
-    padding: 1rem;
+  
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: 0;
+
+}
+
+h1 {
     text-align: center;
-    margin: 0;
+    font-size: 1.5rem;
 }
 
 img {
-    display: flex;
-    align-items: center;
-    width: 25rem;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 20rem;
+  height: auto;
+  border-radius: 5px;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 ul li {
-    font-size: 1.2rem;
-    margin:1rem 0;
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin: 1rem;
 }
 
 ul li label {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 button {
-    background-color: #98FB98;
-    border: none;
-    /* Bring this element all the way down to the buttom */
-    display: block;
-    font-size: 1.25rem;
-    padding: 1.3rem ;
-    width: 100%;
-    cursor: pointer;
-    font-family: inherit;
+  background-color: #f8ff1c;
+  border: none;
+  /* Bring this element all the way down to the buttom */
+  display: block;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 1rem;
 }
 
 button:hover {
-    background-color: #70c670;
+  background-color: #dee425;
 }
 
 button:focus {
-    outline: transparent;
-    background-color: #598659;
+  outline: transparent;
+  background-color: #9ba011;
 }
