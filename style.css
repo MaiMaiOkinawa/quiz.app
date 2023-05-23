@@ -31,8 +31,7 @@ body {
 }
 
 h2 {
-<<<<<<< HEAD
-  
+ 
   padding-bottom: 1rem;
   text-align: center;
   margin: 0;
@@ -42,11 +41,7 @@ h2 {
 h1 {
     text-align: center;
     font-size: 1.5rem;
-=======
-  padding-bottom: 1rem;
-  text-align: center;
-  margin: 0;
->>>>>>> 29ca9bc489c4ba064a17e58444b367d0c9693ed8
+
 }
 
 img {
@@ -93,8 +88,4 @@ button:hover {
 button:focus {
   outline: transparent;
   background-color: #9ba011;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 29ca9bc489c4ba064a17e58444b367d0c9693ed8
